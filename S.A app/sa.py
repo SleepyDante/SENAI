@@ -25,7 +25,7 @@ def abrir_nova_janela():
 
             self.estoque = []
 
-            self.label = tk.Label(master, text="Estoque de Carros", fg='white', bg='black', width=89, height=4, font=("Lucida Console", 35))
+            self.label = tk.Label(master, text="Estoque", fg='white', bg='black', width=89, height=4, font=("Lucida Console", 35))
             self.label.pack(side="top")
 
             self.listbox = tk.Listbox(master, width=100, height=29)
@@ -153,7 +153,7 @@ def abrir_nova_janela():
     nova_janela.bind("<Escape>", lambda event: janela.attributes("-fullscreen", False))
     app = GerenciadorEstoque(nova_janela)
 
-mensagem = tk.Label(text="LOJA DE CARROS", fg='white', bg='black', width=89, height=4, font=("Lucida Console", 35))
+mensagem = tk.Label(text="Estoque", fg='white', bg='black', width=89, height=4, font=("Lucida Console", 35))
 mensagem.pack(side="top")
 
 imagem = tk.PhotoImage(file="toyota.png")
