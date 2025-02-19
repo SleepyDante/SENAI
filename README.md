@@ -10,6 +10,8 @@
 ![Tkinter](https://img.shields.io/badge/Tkinter-5C7B1F?logo=tkinter&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
 
+---
+
 # Sistema de Login PHP <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP" width="50">
 
 
